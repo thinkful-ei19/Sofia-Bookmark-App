@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Bookmark App</title>
+</head>
+ 
+<h1>Bookmark App</h1>
+
+<body>
+    </div>
+        <form class="add-bookmark-form hidden">
+            <input id="title" type="text" name="title" placeholder="Enter Title">
+            <input id="description" type="text" name="description" placeholder="Enter Description">
+            <input id="url" type="url" name="url" placeholder="Enter URL">
+            <div class="rating-radio">
+                <input id="one-star" type="radio" name="rating" value="1"><label for="one-star">1</label>
+                <input id="two-star" type="radio" name="rating" value="2"><label for="two-star">2</label>
+                <input id="three-star" type="radio" name="rating" value="3"><label for="three-star">3</label>
+                <input id="four-star" type="radio" name="rating" value="4"><label for="four-star">4</label>
+                <input id="five-star" type="radio" name="rating" value="5"><label for="five-star">5</label>
+            </div>
+            <input type="submit" value="Add Bookmark">
+        </form>
+    </section>
+    <section class="bookmark-elements">
+        <ul class="bookmark-list">
+           
+        </ul>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="scripts/api.js"></script>
+    <script type="text/javascript" src="scripts/data.js"></script>
+    <script type="text/javascript" src="scripts/bookmarks.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+
+</html>
